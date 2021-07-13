@@ -5,9 +5,9 @@ const { animals } = require('./data/animals'); // data from animals.json
 
 //get data from a location and gives response in 'res'
 app.get('/api/animals', (req, res) => {
-    const results;
+    let results =animals;
     if(req.query)
-   results = filterByQuery(req.query,animals);
+    results = filterByQuery(req.query,animals);
     res.json(results);
     
   });
@@ -22,7 +22,7 @@ app.get('/api/animals', (req, res) => {
   });
 //make the server listen at a port 
 app.listen(PORT, () => {
-    console.log(`API server now on port {PORT}!`);
+    console.log(`API server now on port ${PORT}!`);
   });
 
 

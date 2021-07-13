@@ -1,0 +1,24 @@
+{
+  "name": "zookeepr",
+  "version": "1.0.0",
+  "description": "An app that  creates  a web server for a front-end application that will allow animal enthusiasts to access the data from different locations.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deeparkrish/zookeepr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deeparkrish/zookeepr/issues"
+  },
+  "homepage": "https://github.com/Deeparkrish/zookeepr#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

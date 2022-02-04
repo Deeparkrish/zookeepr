@@ -41,10 +41,11 @@ An app that  creates  a web server for a front-end application that will allow a
 
 ## MockUp
    <div>
-  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/about.png" width ="400px" height ="300px" />
-  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/project.png"  width ="400px" height ="300px" />
-  <img src = "https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/resume.png" width ="400px" height ="300px" />
-  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/contact.png"  width ="400px" height ="300px" />
+  <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk1.png" width ="400px" height ="300px" />
+  <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk2.png"  width ="400px" height ="300px" />
+  <img src = "https://github.com/Deeparkrish/zookeepr/blob/main/zk3.png" width ="400px" height ="300px" />
+  <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk5.png"  width ="400px" height ="300px" />
+   <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk7.png"  width ="400px" height ="300px" />
   </div>
 
 

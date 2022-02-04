@@ -26,16 +26,16 @@ An app that  creates  a web server for a front-end application that will allow a
 - As a user, I want to be able to access and create different types of data stored on the server
 
 ## Process 
-  Set up the server(API endpoints) so that it's listening for incoming requests. 
-    - This can be accomplished using express, first we need to instantiate the server, then tell it to listen for requests.
-  Creating a route that the front-end can request data from.
+  ### Set up the server(API endpoints) so that it's listening for incoming requests. 
+   - This can be accomplished using express, first we need to instantiate the server, then tell it to listen for requests.
+  ### Creating a route that the front-end can request data from.
     - This can be accomplishes by GET,SEND and POST requests 
-   Make the server parse incoming data before it is sent to callback function
+  #### Make the server parse incoming data before it is sent to callback function
     - parse incoming string or array data:  
         app.use(express.urlencoded({ extended: true })) -takes incoming POST data and converts it to key/value pairs that can be accessed in the req.body object.
     - parse incoming JSON data :  
             app.use(express.json()) -takes incoming POST data in the form of JSON and parses it into the req.body JavaScript object
-   Use Fetch API to POST Data
+   #### Use Fetch API to POST Data
     -  This is used when the client adds new data through HTML form.
    Separate files have been created for animals, zookeeprs and corresponding GET,POST requests have been handled. 
 
@@ -43,9 +43,9 @@ An app that  creates  a web server for a front-end application that will allow a
    <div>
   <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk1.png" width ="400px" height ="300px" />
   <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk2.png"  width ="400px" height ="300px" />
-  <img src = "https://github.com/Deeparkrish/zookeepr/blob/main/zk3.png" width ="400px" height ="300px" />
-  <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk5.png"  width ="400px" height ="300px" />
-   <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk7.png"  width ="400px" height ="300px" />
+  <img src = "https://github.com/Deeparkrish/zookeepr/blob/main/zk3.jpeg" width ="400px" height ="300px" />
+  <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk5.jpeg"  width ="400px" height ="300px" />
+   <img src ="https://github.com/Deeparkrish/zookeepr/blob/main/zk7.jpeg"  width ="400px" height ="300px" />
   </div>
 
 
